@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-对象-DOM</title>
+</head>
+
+<body>
+<image id="h1" src="../image/off.gif"></image>
+<div class="cls">传智教育</div>   <br>
+<div class="cls">黑马程序员</div>  <br>
+
+<input type="checkbox" name="hobby"> 电影
+<input type="checkbox" name="hobby"> 旅游
+<input type="checkbox" name="hobby"> 游戏
+</body>
+
+<script>
+    //获取element元素
+    // var img = document.getElementById("h1");
+    // alert(img)
+
+
+    // var divs = document.getElementsByTagName('div');
+    // for(let i = 0; i < divs.length; i ++){
+    //     window.alert(divs[i]);
+    // }
+
+    // var ins = document.getElementsByName('hobby');
+    // for(let i = 0; i < ins.length; i ++){
+    //     window.alert(ins[i]);
+    // }
+
+    var divs = document.getElementsByClassName('cls');
+    var div1 = divs[0];
+
+    div1.innerHTML = "传智教育666";
+
+
+
+
+
+
+</script>
+
+</html>

@@ -3368,3 +3368,10 @@ mounted：挂载完成，Vue初始化成功，HTML页面渲染成功。**以后�
 
 ![1668867458156](assets/1668867458156.png) 
 
+
+
+# SpringBoot + vue restful pi
+
+
+
+![image-20250405160943634](C:\Users\Hanxuewei\AppData\Roaming\Typora\typora-user-images\image-20250405160943634.png)
